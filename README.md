@@ -1,2 +1,2 @@
 # SigmoidGrowth
-Simulate and present sigmoid growth
+Simulate and present sigmoid growth TEST
