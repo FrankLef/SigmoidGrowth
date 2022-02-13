@@ -11,7 +11,6 @@ mod_sigmoid_ui <- function(id){
   
   ns <- NS(id)
   tagList(
-    h2("Growth"),
     fluidRow(
       column(12,
              plotOutput(ns("growth"))

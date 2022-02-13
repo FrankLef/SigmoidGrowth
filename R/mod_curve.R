@@ -10,7 +10,6 @@
 mod_curve_ui <- function(id){
   ns <- NS(id)
   tagList(
-    h2("Quality Control"),
     column(12, plotOutput(ns("curve")))
   )
 }
