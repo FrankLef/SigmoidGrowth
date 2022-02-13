@@ -29,7 +29,9 @@ app_ui <- function(request) {
         actionButton("sim", "Simulate"),
         # reset to default values
         actionButton("reset", "Reset"),
-        width = 2),
+        
+        width = 2
+      ),
       mainPanel(
         tabsetPanel(
           id = "tabset",
@@ -67,8 +69,7 @@ app_ui <- function(request) {
 golem_add_external_resources <- function(){
   
   add_resource_path(
-    'www', app_sys('app/www')
-  )
+    'www', app_sys('app/www'))
  
   tags$head(
     favicon(),
